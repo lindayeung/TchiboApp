@@ -1,0 +1,6 @@
+framework module Pods_Tchibo_TchiboUITests {
+  umbrella header "Pods-Tchibo-TchiboUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

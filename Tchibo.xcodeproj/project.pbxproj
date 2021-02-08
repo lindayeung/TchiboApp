@@ -3,16 +3,75 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1420CA25CE020100AFB1FE /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1420C925CE020100AFB1FE /* Country.swift */; };
+		0A1420CF25CE152F00AFB1FE /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1420CE25CE152F00AFB1FE /* AccountViewModel.swift */; };
+		0A1420D725CE183C00AFB1FE /* AccountSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1420D625CE183C00AFB1FE /* AccountSettingsView.swift */; };
+		0A1420DF25CE216000AFB1FE /* Float+AsStringWithDecimalPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1420DE25CE216000AFB1FE /* Float+AsStringWithDecimalPlaces.swift */; };
+		0A1420EC25CE24F200AFB1FE /* HeaderText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1420EB25CE24F200AFB1FE /* HeaderText.swift */; };
+		0A1420F225CE55B400AFB1FE /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1420F125CE55B400AFB1FE /* OrderView.swift */; };
+		0A1420FA25CE5C2400AFB1FE /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1420F925CE5C2400AFB1FE /* OrderViewModel.swift */; };
+		0A1420FF25CE5D2200AFB1FE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1420FE25CE5D2200AFB1FE /* SignInView.swift */; };
+		0A14210425CE5E4F00AFB1FE /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14210325CE5E4F00AFB1FE /* SignInViewModel.swift */; };
+		0A14210C25D05E4200AFB1FE /* UIImageView+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14210B25D05E4200AFB1FE /* UIImageView+Cache.swift */; };
+		0A14211425D1B92300AFB1FE /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14211325D1B92200AFB1FE /* OrderItem.swift */; };
+		0A721D0425BDB1F100300BDE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D0325BDB1F100300BDE /* ImagePicker.swift */; };
+		0A721D0B25BE26D900300BDE /* CreateNewPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D0A25BE26D900300BDE /* CreateNewPostView.swift */; };
+		0A721D1825BE34C100300BDE /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D1725BE34C100300BDE /* ShopView.swift */; };
+		0A721D1D25BE34D500300BDE /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D1C25BE34D500300BDE /* ShopViewModel.swift */; };
+		0A721D2225BFCFF300300BDE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D2125BFCFF300300BDE /* Product.swift */; };
+		0A721D2C25C1B5D400300BDE /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D2B25C1B5D400300BDE /* ProductCardView.swift */; };
+		0A721D3525C268DC00300BDE /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D3425C268DC00300BDE /* FriendsView.swift */; };
+		0A721D3D25C302BC00300BDE /* FriendProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D3C25C302BB00300BDE /* FriendProfileView.swift */; };
+		0A721D4225C3CC7400300BDE /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D4125C3CC7300300BDE /* ProductDetailView.swift */; };
+		0A721D4F25C44E7B00300BDE /* UserProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D4E25C44E7B00300BDE /* UserProfileCardView.swift */; };
+		0A721D5A25C4513A00300BDE /* SendGiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D5925C4513A00300BDE /* SendGiftView.swift */; };
+		0A721D5F25C4555A00300BDE /* ConfirmGiftPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D5E25C4555A00300BDE /* ConfirmGiftPopover.swift */; };
+		0A721D6E25C459F900300BDE /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D6D25C459F900300BDE /* CircularProfileImageView.swift */; };
+		0A721D7625C6308200300BDE /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D7525C6308200300BDE /* UserProfileView.swift */; };
+		0A721D7B25C63FFE00300BDE /* CircleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D7A25C63FFD00300BDE /* CircleProgressBar.swift */; };
+		0A721D8025C7214900300BDE /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D7F25C7214800300BDE /* PostView.swift */; };
+		0A721D8625C7218B00300BDE /* Date+PrintAsTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D8525C7218B00300BDE /* Date+PrintAsTime.swift */; };
+		0A721D8E25C721B100300BDE /* PostDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D8D25C721B100300BDE /* PostDirection.swift */; };
+		0A721D9325C7309400300BDE /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D9225C7309400300BDE /* Gift.swift */; };
+		0A721D9825C73A6F00300BDE /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D9725C73A6F00300BDE /* FeedItem.swift */; };
+		0A721D9D25C755E200300BDE /* GiftViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721D9C25C755E200300BDE /* GiftViewModel.swift */; };
+		0A721DA225C7584E00300BDE /* BackgroundClearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721DA125C7584E00300BDE /* BackgroundClearView.swift */; };
+		0A721DA725C76F8C00300BDE /* Global Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721DA625C76F8C00300BDE /* Global Functions.swift */; };
+		0A721DAC25C77CB800300BDE /* GiftTransactionPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721DAB25C77CB800300BDE /* GiftTransactionPostView.swift */; };
+		0A721DBB25C847D900300BDE /* AddNewFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721DBA25C847D900300BDE /* AddNewFriendView.swift */; };
+		0A721DDF25C8659D00300BDE /* FriendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A721DDE25C8659D00300BDE /* FriendsViewModel.swift */; };
 		0A79811E25AB3A550089A210 /* TchiboApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79811D25AB3A550089A210 /* TchiboApp.swift */; };
-		0A79812025AB3A550089A210 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79811F25AB3A550089A210 /* ContentView.swift */; };
+		0A79812025AB3A550089A210 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79811F25AB3A550089A210 /* LandingView.swift */; };
 		0A79812225AB3A560089A210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A79812125AB3A560089A210 /* Assets.xcassets */; };
 		0A79812525AB3A560089A210 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A79812425AB3A560089A210 /* Preview Assets.xcassets */; };
 		0A79813025AB3A560089A210 /* TchiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79812F25AB3A560089A210 /* TchiboTests.swift */; };
 		0A79813B25AB3A560089A210 /* TchiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79813A25AB3A560089A210 /* TchiboUITests.swift */; };
+		0A79816925ABD5B90089A210 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A79816825ABD5B90089A210 /* GoogleService-Info.plist */; };
+		0A79818E25ABE2AD0089A210 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79818D25ABE2AD0089A210 /* RegisterView.swift */; };
+		0A79819325ABE5900089A210 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79819225ABE5900089A210 /* Styles.swift */; };
+		0A7981A225ABE6170089A210 /* Status Bar Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79819825ABE6170089A210 /* Status Bar Views.swift */; };
+		0A7981A325ABE6170089A210 /* RegistrationPreviousButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79819925ABE6170089A210 /* RegistrationPreviousButtonView.swift */; };
+		0A7981A425ABE6170089A210 /* NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79819A25ABE6170089A210 /* NavigationStack.swift */; };
+		0A7981A625ABE6170089A210 /* RegistrationNextButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79819C25ABE6170089A210 /* RegistrationNextButtonView.swift */; };
+		0A7981A825ABE6170089A210 /* FormTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79819E25ABE6170089A210 /* FormTextFieldView.swift */; };
+		0A7981A925ABE6170089A210 /* IncompleteFieldMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79819F25ABE6170089A210 /* IncompleteFieldMessage.swift */; };
+		0A7981AB25ABE6170089A210 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7981A125ABE6170089A210 /* ButtonView.swift */; };
+		0A7981BA25ADED150089A210 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 0A7981B925ADED150089A210 /* iPhoneNumberField */; };
+		0A7981CD25AF3AEB0089A210 /* UserRegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7981CC25AF3AEB0089A210 /* UserRegistrationViewModel.swift */; };
+		0AB11B6925B91A75009D50AF /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB11B6825B91A75009D50AF /* LoginScreenView.swift */; };
+		0AB11B6E25B9248B009D50AF /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB11B6D25B9248B009D50AF /* UserProfile.swift */; };
+		0AB11B7325B93038009D50AF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB11B7225B93038009D50AF /* AccountView.swift */; };
+		0AB11B7A25B9C099009D50AF /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB11B7925B9C099009D50AF /* FeedView.swift */; };
+		0AB11B8325B9CFAD009D50AF /* CustomPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB11B8225B9CFAD009D50AF /* CustomPost.swift */; };
+		0AB11B8B25BCFDBD009D50AF /* UserReward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB11B8A25BCFDBD009D50AF /* UserReward.swift */; };
+		0AB11B9425BD2E2B009D50AF /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB11B9325BD2E2B009D50AF /* FeedViewModel.swift */; };
+		2C427273F83B715498B42EF3 /* Pods_TchiboTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B3D41AB4E0E89CAD0B4BA4 /* Pods_TchiboTests.framework */; };
+		98674BE44415DF11561A2B28 /* Pods_Tchibo_TchiboUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B22A11B5AE29B1992C49DB /* Pods_Tchibo_TchiboUITests.framework */; };
+		C1A75956A27528BB58CC08BA /* Pods_Tchibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F292034F280CC5B5E8F1DE48 /* Pods_Tchibo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +92,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1420C925CE020100AFB1FE /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		0A1420CE25CE152F00AFB1FE /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		0A1420D625CE183C00AFB1FE /* AccountSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsView.swift; sourceTree = "<group>"; };
+		0A1420DE25CE216000AFB1FE /* Float+AsStringWithDecimalPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+AsStringWithDecimalPlaces.swift"; sourceTree = "<group>"; };
+		0A1420EB25CE24F200AFB1FE /* HeaderText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderText.swift; sourceTree = "<group>"; };
+		0A1420F125CE55B400AFB1FE /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		0A1420F925CE5C2400AFB1FE /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		0A1420FE25CE5D2200AFB1FE /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		0A14210325CE5E4F00AFB1FE /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		0A14210B25D05E4200AFB1FE /* UIImageView+Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Cache.swift"; sourceTree = "<group>"; };
+		0A14211325D1B92200AFB1FE /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
+		0A721D0325BDB1F100300BDE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		0A721D0A25BE26D900300BDE /* CreateNewPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPostView.swift; sourceTree = "<group>"; };
+		0A721D1725BE34C100300BDE /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		0A721D1C25BE34D500300BDE /* ShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModel.swift; sourceTree = "<group>"; };
+		0A721D2125BFCFF300300BDE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0A721D2B25C1B5D400300BDE /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		0A721D3425C268DC00300BDE /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		0A721D3C25C302BB00300BDE /* FriendProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendProfileView.swift; sourceTree = "<group>"; };
+		0A721D4125C3CC7300300BDE /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		0A721D4E25C44E7B00300BDE /* UserProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileCardView.swift; sourceTree = "<group>"; };
+		0A721D5925C4513A00300BDE /* SendGiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendGiftView.swift; sourceTree = "<group>"; };
+		0A721D5E25C4555A00300BDE /* ConfirmGiftPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmGiftPopover.swift; sourceTree = "<group>"; };
+		0A721D6D25C459F900300BDE /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
+		0A721D7525C6308200300BDE /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		0A721D7A25C63FFD00300BDE /* CircleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBar.swift; sourceTree = "<group>"; };
+		0A721D7F25C7214800300BDE /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		0A721D8525C7218B00300BDE /* Date+PrintAsTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+PrintAsTime.swift"; sourceTree = "<group>"; };
+		0A721D8D25C721B100300BDE /* PostDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDirection.swift; sourceTree = "<group>"; };
+		0A721D9225C7309400300BDE /* Gift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift.swift; sourceTree = "<group>"; };
+		0A721D9725C73A6F00300BDE /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		0A721D9C25C755E200300BDE /* GiftViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftViewModel.swift; sourceTree = "<group>"; };
+		0A721DA125C7584E00300BDE /* BackgroundClearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundClearView.swift; sourceTree = "<group>"; };
+		0A721DA625C76F8C00300BDE /* Global Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global Functions.swift"; sourceTree = "<group>"; };
+		0A721DAB25C77CB800300BDE /* GiftTransactionPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftTransactionPostView.swift; sourceTree = "<group>"; };
+		0A721DBA25C847D900300BDE /* AddNewFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewFriendView.swift; sourceTree = "<group>"; };
+		0A721DDE25C8659D00300BDE /* FriendsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewModel.swift; sourceTree = "<group>"; };
 		0A79811A25AB3A550089A210 /* Tchibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tchibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A79811D25AB3A550089A210 /* TchiboApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TchiboApp.swift; sourceTree = "<group>"; };
-		0A79811F25AB3A550089A210 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A79811F25AB3A550089A210 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		0A79812125AB3A560089A210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A79812425AB3A560089A210 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A79812625AB3A560089A210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +141,33 @@
 		0A79813625AB3A560089A210 /* TchiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TchiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A79813A25AB3A560089A210 /* TchiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TchiboUITests.swift; sourceTree = "<group>"; };
 		0A79813C25AB3A560089A210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A79816825ABD5B90089A210 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0A79818D25ABE2AD0089A210 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		0A79819225ABE5900089A210 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		0A79819825ABE6170089A210 /* Status Bar Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Status Bar Views.swift"; sourceTree = "<group>"; };
+		0A79819925ABE6170089A210 /* RegistrationPreviousButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationPreviousButtonView.swift; sourceTree = "<group>"; };
+		0A79819A25ABE6170089A210 /* NavigationStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationStack.swift; sourceTree = "<group>"; };
+		0A79819C25ABE6170089A210 /* RegistrationNextButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationNextButtonView.swift; sourceTree = "<group>"; };
+		0A79819E25ABE6170089A210 /* FormTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTextFieldView.swift; sourceTree = "<group>"; };
+		0A79819F25ABE6170089A210 /* IncompleteFieldMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncompleteFieldMessage.swift; sourceTree = "<group>"; };
+		0A7981A125ABE6170089A210 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		0A7981CC25AF3AEB0089A210 /* UserRegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewModel.swift; sourceTree = "<group>"; };
+		0AB11B6825B91A75009D50AF /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
+		0AB11B6D25B9248B009D50AF /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		0AB11B7225B93038009D50AF /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		0AB11B7925B9C099009D50AF /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		0AB11B8225B9CFAD009D50AF /* CustomPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPost.swift; sourceTree = "<group>"; };
+		0AB11B8A25BCFDBD009D50AF /* UserReward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReward.swift; sourceTree = "<group>"; };
+		0AB11B9325BD2E2B009D50AF /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		0F0BE483FBD72DDCA9984153 /* Pods-Tchibo-TchiboUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tchibo-TchiboUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tchibo-TchiboUITests/Pods-Tchibo-TchiboUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		12BAD3376A07CAD6F09A75EE /* Pods-Tchibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tchibo.release.xcconfig"; path = "Target Support Files/Pods-Tchibo/Pods-Tchibo.release.xcconfig"; sourceTree = "<group>"; };
+		3E831F3EA5C6870647D579AE /* Pods-TchiboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TchiboTests.release.xcconfig"; path = "Target Support Files/Pods-TchiboTests/Pods-TchiboTests.release.xcconfig"; sourceTree = "<group>"; };
+		535A3F7D3DB1E3A736D856EE /* Pods-TchiboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TchiboTests.debug.xcconfig"; path = "Target Support Files/Pods-TchiboTests/Pods-TchiboTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90B22A11B5AE29B1992C49DB /* Pods_Tchibo_TchiboUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tchibo_TchiboUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B3D41AB4E0E89CAD0B4BA4 /* Pods_TchiboTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TchiboTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1AB7D3A74749376FC549DAC /* Pods-Tchibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tchibo.debug.xcconfig"; path = "Target Support Files/Pods-Tchibo/Pods-Tchibo.debug.xcconfig"; sourceTree = "<group>"; };
+		E1EC5E6A6B59733EA979DC03 /* Pods-Tchibo-TchiboUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tchibo-TchiboUITests.release.xcconfig"; path = "Target Support Files/Pods-Tchibo-TchiboUITests/Pods-Tchibo-TchiboUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F292034F280CC5B5E8F1DE48 /* Pods_Tchibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tchibo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +175,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A75956A27528BB58CC08BA /* Pods_Tchibo.framework in Frameworks */,
+				0A7981BA25ADED150089A210 /* iPhoneNumberField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C427273F83B715498B42EF3 /* Pods_TchiboTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +192,107 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98674BE44415DF11561A2B28 /* Pods_Tchibo_TchiboUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A1420F025CE558B00AFB1FE /* Order Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0A1420F125CE55B400AFB1FE /* OrderView.swift */,
+			);
+			path = "Order Tab";
+			sourceTree = "<group>";
+		};
+		0A721D0925BE26C400300BDE /* Feed Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0AB11B7925B9C099009D50AF /* FeedView.swift */,
+				0A721D0A25BE26D900300BDE /* CreateNewPostView.swift */,
+				0A721D7F25C7214800300BDE /* PostView.swift */,
+				0A721DAB25C77CB800300BDE /* GiftTransactionPostView.swift */,
+			);
+			path = "Feed Tab";
+			sourceTree = "<group>";
+		};
+		0A721D1225BE286900300BDE /* Account Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0AB11B7225B93038009D50AF /* AccountView.swift */,
+				0A721D7525C6308200300BDE /* UserProfileView.swift */,
+				0A1420D625CE183C00AFB1FE /* AccountSettingsView.swift */,
+			);
+			path = "Account Tab";
+			sourceTree = "<group>";
+		};
+		0A721D1625BE34B200300BDE /* Shop Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0A721D1725BE34C100300BDE /* ShopView.swift */,
+				0A721D2B25C1B5D400300BDE /* ProductCardView.swift */,
+				0A721D4125C3CC7300300BDE /* ProductDetailView.swift */,
+				0A721D5925C4513A00300BDE /* SendGiftView.swift */,
+				0A721D5E25C4555A00300BDE /* ConfirmGiftPopover.swift */,
+			);
+			path = "Shop Tab";
+			sourceTree = "<group>";
+		};
+		0A721D3325C268CB00300BDE /* Friends Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0A721D3425C268DC00300BDE /* FriendsView.swift */,
+				0A721D4E25C44E7B00300BDE /* UserProfileCardView.swift */,
+				0A721D3C25C302BB00300BDE /* FriendProfileView.swift */,
+				0A721DBA25C847D900300BDE /* AddNewFriendView.swift */,
+			);
+			path = "Friends Tab";
+			sourceTree = "<group>";
+		};
+		0A721D6C25C459DB00300BDE /* Accessory Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A721D6D25C459F900300BDE /* CircularProfileImageView.swift */,
+				0A721D7A25C63FFD00300BDE /* CircleProgressBar.swift */,
+				0A1420EB25CE24F200AFB1FE /* HeaderText.swift */,
+			);
+			path = "Accessory Views";
+			sourceTree = "<group>";
+		};
+		0A721D8425C7217C00300BDE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A721D8525C7218B00300BDE /* Date+PrintAsTime.swift */,
+				0A1420DE25CE216000AFB1FE /* Float+AsStringWithDecimalPlaces.swift */,
+				0A14210B25D05E4200AFB1FE /* UIImageView+Cache.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0A721DB025C7B06D00300BDE /* User Account */ = {
+			isa = PBXGroup;
+			children = (
+				0AB11B6825B91A75009D50AF /* LoginScreenView.swift */,
+				0A79818D25ABE2AD0089A210 /* RegisterView.swift */,
+				0A1420FE25CE5D2200AFB1FE /* SignInView.swift */,
+			);
+			path = "User Account";
+			sourceTree = "<group>";
+		};
 		0A79811125AB3A550089A210 = {
 			isa = PBXGroup;
 			children = (
+				0A721DA625C76F8C00300BDE /* Global Functions.swift */,
+				0A721D8425C7217C00300BDE /* Extensions */,
+				0A79819725ABE6170089A210 /* Accessory Views */,
 				0A79811C25AB3A550089A210 /* Tchibo */,
 				0A79812E25AB3A560089A210 /* TchiboTests */,
 				0A79813925AB3A560089A210 /* TchiboUITests */,
 				0A79811B25AB3A550089A210 /* Products */,
+				858E8C3F394409EC573E3869 /* Pods */,
+				FC53F1BDC9EBFDEC096FA41B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +309,19 @@
 		0A79811C25AB3A550089A210 /* Tchibo */ = {
 			isa = PBXGroup;
 			children = (
+				0A721D6C25C459DB00300BDE /* Accessory Views */,
+				0AB11B9225BD2E18009D50AF /* View Model */,
+				0AB11B8125B9CF9A009D50AF /* Model */,
+				0A721DB025C7B06D00300BDE /* User Account */,
+				0AB11B7725B9C07B009D50AF /* Tab Views */,
 				0A79811D25AB3A550089A210 /* TchiboApp.swift */,
-				0A79811F25AB3A550089A210 /* ContentView.swift */,
+				0A79819225ABE5900089A210 /* Styles.swift */,
+				0A79811F25AB3A550089A210 /* LandingView.swift */,
 				0A79812125AB3A560089A210 /* Assets.xcassets */,
+				0A79816825ABD5B90089A210 /* GoogleService-Info.plist */,
 				0A79812625AB3A560089A210 /* Info.plist */,
 				0A79812325AB3A560089A210 /* Preview Content */,
+				0A721D0325BDB1F100300BDE /* ImagePicker.swift */,
 			);
 			path = Tchibo;
 			sourceTree = "<group>";
@@ -130,6 +352,87 @@
 			path = TchiboUITests;
 			sourceTree = "<group>";
 		};
+		0A79819725ABE6170089A210 /* Accessory Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A79819825ABE6170089A210 /* Status Bar Views.swift */,
+				0A79819925ABE6170089A210 /* RegistrationPreviousButtonView.swift */,
+				0A79819A25ABE6170089A210 /* NavigationStack.swift */,
+				0A79819C25ABE6170089A210 /* RegistrationNextButtonView.swift */,
+				0A79819E25ABE6170089A210 /* FormTextFieldView.swift */,
+				0A79819F25ABE6170089A210 /* IncompleteFieldMessage.swift */,
+				0A7981A125ABE6170089A210 /* ButtonView.swift */,
+				0A721DA125C7584E00300BDE /* BackgroundClearView.swift */,
+			);
+			path = "Accessory Views";
+			sourceTree = "<group>";
+		};
+		0AB11B7725B9C07B009D50AF /* Tab Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A721D1225BE286900300BDE /* Account Tab */,
+				0A721D3325C268CB00300BDE /* Friends Tab */,
+				0A721D0925BE26C400300BDE /* Feed Tab */,
+				0A721D1625BE34B200300BDE /* Shop Tab */,
+				0A1420F025CE558B00AFB1FE /* Order Tab */,
+			);
+			path = "Tab Views";
+			sourceTree = "<group>";
+		};
+		0AB11B8125B9CF9A009D50AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AB11B6D25B9248B009D50AF /* UserProfile.swift */,
+				0AB11B8A25BCFDBD009D50AF /* UserReward.swift */,
+				0A721D2125BFCFF300300BDE /* Product.swift */,
+				0A721D8D25C721B100300BDE /* PostDirection.swift */,
+				0AB11B8225B9CFAD009D50AF /* CustomPost.swift */,
+				0A721D9225C7309400300BDE /* Gift.swift */,
+				0A721D9725C73A6F00300BDE /* FeedItem.swift */,
+				0A1420C925CE020100AFB1FE /* Country.swift */,
+				0A14211325D1B92200AFB1FE /* OrderItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AB11B9225BD2E18009D50AF /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A7981CC25AF3AEB0089A210 /* UserRegistrationViewModel.swift */,
+				0A1420CE25CE152F00AFB1FE /* AccountViewModel.swift */,
+				0A721DDE25C8659D00300BDE /* FriendsViewModel.swift */,
+				0AB11B9325BD2E2B009D50AF /* FeedViewModel.swift */,
+				0A721D1C25BE34D500300BDE /* ShopViewModel.swift */,
+				0A721D9C25C755E200300BDE /* GiftViewModel.swift */,
+				0A1420F925CE5C2400AFB1FE /* OrderViewModel.swift */,
+				0A14210325CE5E4F00AFB1FE /* SignInViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		858E8C3F394409EC573E3869 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1AB7D3A74749376FC549DAC /* Pods-Tchibo.debug.xcconfig */,
+				12BAD3376A07CAD6F09A75EE /* Pods-Tchibo.release.xcconfig */,
+				0F0BE483FBD72DDCA9984153 /* Pods-Tchibo-TchiboUITests.debug.xcconfig */,
+				E1EC5E6A6B59733EA979DC03 /* Pods-Tchibo-TchiboUITests.release.xcconfig */,
+				535A3F7D3DB1E3A736D856EE /* Pods-TchiboTests.debug.xcconfig */,
+				3E831F3EA5C6870647D579AE /* Pods-TchiboTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC53F1BDC9EBFDEC096FA41B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F292034F280CC5B5E8F1DE48 /* Pods_Tchibo.framework */,
+				90B22A11B5AE29B1992C49DB /* Pods_Tchibo_TchiboUITests.framework */,
+				94B3D41AB4E0E89CAD0B4BA4 /* Pods_TchiboTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,15 +440,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A79813F25AB3A560089A210 /* Build configuration list for PBXNativeTarget "Tchibo" */;
 			buildPhases = (
+				942EB801A65AD5DAEC9100C3 /* [CP] Check Pods Manifest.lock */,
 				0A79811625AB3A550089A210 /* Sources */,
 				0A79811725AB3A550089A210 /* Frameworks */,
 				0A79811825AB3A550089A210 /* Resources */,
+				0ABCA27AA9222DD62D73C025 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Tchibo;
+			packageProductDependencies = (
+				0A7981B925ADED150089A210 /* iPhoneNumberField */,
+			);
 			productName = Tchibo;
 			productReference = 0A79811A25AB3A550089A210 /* Tchibo.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +462,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A79814225AB3A560089A210 /* Build configuration list for PBXNativeTarget "TchiboTests" */;
 			buildPhases = (
+				1C1A2299E4DF4309033594B8 /* [CP] Check Pods Manifest.lock */,
 				0A79812725AB3A560089A210 /* Sources */,
 				0A79812825AB3A560089A210 /* Frameworks */,
 				0A79812925AB3A560089A210 /* Resources */,
@@ -172,9 +481,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A79814525AB3A560089A210 /* Build configuration list for PBXNativeTarget "TchiboUITests" */;
 			buildPhases = (
+				42EE30546B4A6D85398E569E /* [CP] Check Pods Manifest.lock */,
 				0A79813225AB3A560089A210 /* Sources */,
 				0A79813325AB3A560089A210 /* Frameworks */,
 				0A79813425AB3A560089A210 /* Resources */,
+				7FACA6201D2FFB7B86269564 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +528,9 @@
 				Base,
 			);
 			mainGroup = 0A79811125AB3A550089A210;
+			packageReferences = (
+				0A7981B825ADED150089A210 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
 			productRefGroup = 0A79811B25AB3A550089A210 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +548,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A79812525AB3A560089A210 /* Preview Assets.xcassets in Resources */,
+				0A79816925ABD5B90089A210 /* GoogleService-Info.plist in Resources */,
 				0A79812225AB3A560089A210 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +569,170 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ABCA27AA9222DD62D73C025 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tchibo/Pods-Tchibo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tchibo/Pods-Tchibo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tchibo/Pods-Tchibo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C1A2299E4DF4309033594B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TchiboTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42EE30546B4A6D85398E569E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tchibo-TchiboUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FACA6201D2FFB7B86269564 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tchibo-TchiboUITests/Pods-Tchibo-TchiboUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tchibo-TchiboUITests/Pods-Tchibo-TchiboUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tchibo-TchiboUITests/Pods-Tchibo-TchiboUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		942EB801A65AD5DAEC9100C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tchibo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A79811625AB3A550089A210 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A79812025AB3A550089A210 /* ContentView.swift in Sources */,
+				0A1420CF25CE152F00AFB1FE /* AccountViewModel.swift in Sources */,
+				0A721D2C25C1B5D400300BDE /* ProductCardView.swift in Sources */,
+				0A721D4225C3CC7400300BDE /* ProductDetailView.swift in Sources */,
+				0A1420F225CE55B400AFB1FE /* OrderView.swift in Sources */,
+				0AB11B9425BD2E2B009D50AF /* FeedViewModel.swift in Sources */,
+				0A7981CD25AF3AEB0089A210 /* UserRegistrationViewModel.swift in Sources */,
+				0A721DA225C7584E00300BDE /* BackgroundClearView.swift in Sources */,
+				0A7981A825ABE6170089A210 /* FormTextFieldView.swift in Sources */,
+				0A7981A425ABE6170089A210 /* NavigationStack.swift in Sources */,
+				0A1420DF25CE216000AFB1FE /* Float+AsStringWithDecimalPlaces.swift in Sources */,
+				0A79818E25ABE2AD0089A210 /* RegisterView.swift in Sources */,
+				0A721D7625C6308200300BDE /* UserProfileView.swift in Sources */,
+				0AB11B8325B9CFAD009D50AF /* CustomPost.swift in Sources */,
+				0A7981A925ABE6170089A210 /* IncompleteFieldMessage.swift in Sources */,
+				0A7981AB25ABE6170089A210 /* ButtonView.swift in Sources */,
+				0AB11B6E25B9248B009D50AF /* UserProfile.swift in Sources */,
+				0A79812025AB3A550089A210 /* LandingView.swift in Sources */,
+				0AB11B7A25B9C099009D50AF /* FeedView.swift in Sources */,
+				0A721D3525C268DC00300BDE /* FriendsView.swift in Sources */,
+				0A14210C25D05E4200AFB1FE /* UIImageView+Cache.swift in Sources */,
+				0A721D8E25C721B100300BDE /* PostDirection.swift in Sources */,
+				0A721D1D25BE34D500300BDE /* ShopViewModel.swift in Sources */,
+				0A7981A625ABE6170089A210 /* RegistrationNextButtonView.swift in Sources */,
+				0AB11B7325B93038009D50AF /* AccountView.swift in Sources */,
+				0A1420FA25CE5C2400AFB1FE /* OrderViewModel.swift in Sources */,
+				0A1420FF25CE5D2200AFB1FE /* SignInView.swift in Sources */,
+				0AB11B6925B91A75009D50AF /* LoginScreenView.swift in Sources */,
+				0A721D9D25C755E200300BDE /* GiftViewModel.swift in Sources */,
+				0A7981A325ABE6170089A210 /* RegistrationPreviousButtonView.swift in Sources */,
+				0A721D7B25C63FFE00300BDE /* CircleProgressBar.swift in Sources */,
+				0A721D5F25C4555A00300BDE /* ConfirmGiftPopover.swift in Sources */,
 				0A79811E25AB3A550089A210 /* TchiboApp.swift in Sources */,
+				0A721DDF25C8659D00300BDE /* FriendsViewModel.swift in Sources */,
+				0A721D2225BFCFF300300BDE /* Product.swift in Sources */,
+				0A721D3D25C302BC00300BDE /* FriendProfileView.swift in Sources */,
+				0A1420D725CE183C00AFB1FE /* AccountSettingsView.swift in Sources */,
+				0AB11B8B25BCFDBD009D50AF /* UserReward.swift in Sources */,
+				0A14211425D1B92300AFB1FE /* OrderItem.swift in Sources */,
+				0A721DAC25C77CB800300BDE /* GiftTransactionPostView.swift in Sources */,
+				0A721D9325C7309400300BDE /* Gift.swift in Sources */,
+				0A1420CA25CE020100AFB1FE /* Country.swift in Sources */,
+				0A721DBB25C847D900300BDE /* AddNewFriendView.swift in Sources */,
+				0A721D0425BDB1F100300BDE /* ImagePicker.swift in Sources */,
+				0A79819325ABE5900089A210 /* Styles.swift in Sources */,
+				0A721D8025C7214900300BDE /* PostView.swift in Sources */,
+				0A7981A225ABE6170089A210 /* Status Bar Views.swift in Sources */,
+				0A721D9825C73A6F00300BDE /* FeedItem.swift in Sources */,
+				0A721D8625C7218B00300BDE /* Date+PrintAsTime.swift in Sources */,
+				0A1420EC25CE24F200AFB1FE /* HeaderText.swift in Sources */,
+				0A721D1825BE34C100300BDE /* ShopView.swift in Sources */,
+				0A721DA725C76F8C00300BDE /* Global Functions.swift in Sources */,
+				0A721D4F25C44E7B00300BDE /* UserProfileCardView.swift in Sources */,
+				0A14210425CE5E4F00AFB1FE /* SignInViewModel.swift in Sources */,
+				0A721D6E25C459F900300BDE /* CircularProfileImageView.swift in Sources */,
+				0A721D5A25C4513A00300BDE /* SendGiftView.swift in Sources */,
+				0A721D0B25BE26D900300BDE /* CreateNewPostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +886,7 @@
 		};
 		0A79814025AB3A560089A210 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1AB7D3A74749376FC549DAC /* Pods-Tchibo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +909,7 @@
 		};
 		0A79814125AB3A560089A210 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12BAD3376A07CAD6F09A75EE /* Pods-Tchibo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +932,7 @@
 		};
 		0A79814325AB3A560089A210 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 535A3F7D3DB1E3A736D856EE /* Pods-TchiboTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +955,7 @@
 		};
 		0A79814425AB3A560089A210 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E831F3EA5C6870647D579AE /* Pods-TchiboTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +978,7 @@
 		};
 		0A79814625AB3A560089A210 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F0BE483FBD72DDCA9984153 /* Pods-Tchibo-TchiboUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +999,7 @@
 		};
 		0A79814725AB3A560089A210 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1EC5E6A6B59733EA979DC03 /* Pods-Tchibo-TchiboUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +1058,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A7981B825ADED150089A210 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0A7981B925ADED150089A210 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A7981B825ADED150089A210 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0A79811225AB3A550089A210 /* Project object */;
 }

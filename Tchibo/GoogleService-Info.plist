@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>80379691237-3ag1hlllksopug19via40ll6nu5ciqcb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.80379691237-3ag1hlllksopug19via40ll6nu5ciqcb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCIanor18_iF9deTEhJM-UDAQvM1iU1hZc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>80379691237</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>yeung.wild.free.Tchibo</string>
+	<key>PROJECT_ID</key>
+	<string>tchibo-d81dd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tchibo-d81dd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:80379691237:ios:39fb5ee32f511354d9140c</string>
+</dict>
+</plist>
